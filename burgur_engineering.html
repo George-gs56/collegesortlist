@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+.previous {
+  background-color:green;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+body {
+  background-image: url('data:image/jpeg;base64,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');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
+
+<a href="C:\Users\ELCOT\Desktop\project\second_page.html" class="previous">&laquo; Previous</a>
+
+<a href="C:\Users\ELCOT\Desktop\project\second_page.html" class="previous round">&#8249;</a>
+  
+</body>
+</html> 
+<div class="container">
+			<h1 class="display-4 text-white">
+			About the College
+			</h1>
+			<p class="lead text-white">
+			<h3>College Rank in India =1363</h3>
+			<h3>College Rank in Tamilnadu =621</h3>
+			<h3>NAAC Grade = B+</h3>
+			<h3>Hostel Fecility = Good Condition Hostel,The distance between college and hostel is only 100m. 
+			<h3>Bus and travel Fecility =The college is situated along the highway,All kind of Goverment local buses available, FREE bus pass.</h3>
+			<a href="https://gcebargur.ac.in/"><h1>APPLY HERE</h1>
+			</a><br>
+			</p>
+		</div>
